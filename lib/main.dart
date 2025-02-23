@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:learn_widget_flutter/widgets/Input_textfield.dart';
 import 'package:learn_widget_flutter/widgets/button.dart';
 import 'package:learn_widget_flutter/widgets/center.dart';
 import 'package:learn_widget_flutter/widgets/container.dart';
 import 'package:learn_widget_flutter/widgets/decoration_container.dart';
+import 'package:learn_widget_flutter/widgets/image.dart';
 import 'package:learn_widget_flutter/widgets/padding_pembungkus_widget.dart';
 import 'package:learn_widget_flutter/widgets/row_column.dart';
 import 'package:learn_widget_flutter/widgets/scaffold.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bismillah Belajar Widget',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Scaffold(body: Center(child: RekapButton())),
+      home: Scaffold(body: Center(child: ShowImage())),
     );
   }
 }
